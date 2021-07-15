@@ -10,7 +10,7 @@ namespace DesafioApi01Test
         [TestMethod]
         public void TaxaJuros()
         {
-            Taxa expected = new Taxa { ValorTaxa = 0.1 };
+            Taxa expected = new Taxa { ValorTaxa = 0.01 };
 
             Taxa actual = TaxaService.GetTaxaJuros();
 

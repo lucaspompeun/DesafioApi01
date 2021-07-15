@@ -12,7 +12,7 @@ namespace DesafioApi01.Service
 
         static TaxaService()
         {
-            TaxaJuros = new Taxa { ValorTaxa = 0.1 };
+            TaxaJuros = new Taxa { ValorTaxa = 0.01 };
         }
 
         public static Taxa GetTaxaJuros()
